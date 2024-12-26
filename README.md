@@ -1,3 +1,10 @@
-![WhatsApp Image 2024-12-26 at 11 54 00](https://github.com/user-attachments/assets/5a4639eb-c115-4970-a302-bbb99e38a877)
-![WhatsApp Image 2024-12-26 at 11 53 56](https://github.com/user-attachments/assets/43562f17-e6b9-4381-ace6-57641bffc3b0)
-![WhatsApp Image 2024-12-26 at 11 53 53](https://github.com/user-attachments/assets/ac72c835-9689-4238-a030-410785c0258a)
+<!-- Resized image example -->
+
+
+
+
+<img src="https://github.com/user-attachments/assets/7ebb4640-2684-44a6-8e2b-d995bc8267c1" width="200" />
+
+<img src="https://github.com/user-attachments/assets/7fa1f171-94dc-45cc-a2ab-f59c4df6711a" width="200" />
+
+<img src="https://github.com/user-attachments/assets/3d4a6ab5-e935-411b-a2a1-4145dbdd91b2" width="200" />
