@@ -124,8 +124,20 @@ export default function KeyBoardCalc() {
         <Button title="." onPress={() => handleNumberPress(".")} />
         <Button title="0" onPress={() => handleNumberPress("0")} />
         <Button title="⌫" onPress={() => setFirstNumber(firstNumber.slice(0, -1))} />
-        <Button title="=" isBlue onPress={() => getResult()} />
+            <Button title="=" onPress={() => getResult()}/>
+          
+        
       </View>
+ <View
+        style={{
+          alignItems: "center",
+          marginTop: 20,
+          marginBottom:5
+        }}
+      >
+        <Text style={{ fontSize: 16, color: "gray" }}>Calc by Sahil</Text>
+      </View>
+      
     </View>
   );
 }

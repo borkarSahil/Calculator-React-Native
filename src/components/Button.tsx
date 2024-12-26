@@ -8,10 +8,10 @@ interface ButtonProps {
     title: string;
     isBlue?: boolean;
     isGray?: boolean;
-    
+    isGreen?: boolean;
 }
 
-export default function Button({ title, onPress, isBlue, isGray }: ButtonProps) {
+export default function Button({ title, onPress, isBlue, isGray, isGreen }: ButtonProps) {
     const theme = useContext(ThemeContext);
     return (
         <TouchableOpacity 
@@ -23,6 +23,7 @@ export default function Button({ title, onPress, isBlue, isGray }: ButtonProps) 
                 : theme === "light" 
                 ? Styles.btnLight 
                 : Styles.btnDark
+                
             } 
             onPress={onPress}>
             <Text 

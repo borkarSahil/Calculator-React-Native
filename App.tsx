@@ -16,6 +16,7 @@ export default function App() {
           onValueChange={() => setTheme(theme === 'light' ? 'dark' : 'light')}
         />
         <KeyBoardCalc />
+        
       </SafeAreaView>
     </ThemeContext.Provider>
   );

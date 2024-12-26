@@ -39,6 +39,15 @@ export const Styles = StyleSheet.create({
         alignItems: "center",
         margin: 8,
     },
+    btnGreen: {
+        width: 72,
+        height: 72,
+        borderRadius: 24,
+        backgroundColor: myColors.green,
+        justifyContent: "center",
+        alignItems: "center",
+        margin: 8,
+    },
     smallTextLight: {
         fontSize: 32,
         color: myColors.white,
